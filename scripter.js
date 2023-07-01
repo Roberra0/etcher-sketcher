@@ -1,6 +1,6 @@
 
 //Add cubes in parent canvas
-function canvasCreation(rows=5, columns=5){
+function canvasCreation(rows=100, columns=100){
     for(h=0; h<rows; h++){ //Creates rows
         let row = document.createElement('div');
         row.classList.toggle('row');
