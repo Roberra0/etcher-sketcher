@@ -1,0 +1,28 @@
+#sketchCanvas {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 710px;
+    height: 500px;
+    border: 2px black solid;
+}
+
+#cube{
+    /* align-items: center; */
+    width: 5px;
+    height: 5px;
+    border: 1px white solid;
+  /* This will make the cubes stretch to fit the width and height of the canvas. */
+  /* flex-grow: 1; */
+  /* This will prevent the cubes from shrinking vertically. */
+  /* flex-shrink: 0; */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
